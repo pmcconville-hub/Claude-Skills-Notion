@@ -17,6 +17,16 @@ claude-skills/
 ├── notion-ai-orchestrator/
 │   ├── README.md
 │   └── SKILL.md
+├── prd-builder/
+│   ├── README.md
+│   ├── SKILL.md
+│   ├── references/
+│   │   └── prd-template.md
+│   └── sub-skills/
+│       ├── discovery/SKILL.md
+│       ├── researcher/SKILL.md
+│       ├── generator/SKILL.md
+│       └── reviewer/SKILL.md
 └── (more skills coming)
 ```
 
@@ -24,6 +34,7 @@ claude-skills/
 
 | Skill | Description |
 |-------|-------------|
+| [prd-builder](./prd-builder/) | AI-native PRD builder — structured discovery interviews, market research, generation, and review. Produces comprehensive Product Requirements Documents for new or existing products. |
 | [notion-ai-orchestrator](./notion-ai-orchestrator/) | Orchestrate Notion AI through the Claude Chrome Extension — create databases, search content, modify pages, and set up automations by delegating to Notion's built-in AI agent. |
 
 ## Usage
