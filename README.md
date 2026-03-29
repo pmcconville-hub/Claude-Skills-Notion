@@ -27,6 +27,21 @@ claude-skills/
 │       ├── researcher/SKILL.md
 │       ├── generator/SKILL.md
 │       └── reviewer/SKILL.md
+├── spec-driven-dev/
+│   ├── README.md
+│   ├── SKILL.md
+│   ├── references/
+│   │   ├── plan-template.md
+│   │   ├── spec-template.md
+│   │   ├── tasks-template.md
+│   │   └── validation-checklist.md
+│   └── sub-skills/
+│       ├── architect/SKILL.md
+│       ├── decomposer/SKILL.md
+│       ├── retrofit/SKILL.md
+│       ├── specifier/SKILL.md
+│       ├── sync/SKILL.md
+│       └── toolchain/SKILL.md
 └── (more skills coming)
 ```
 
@@ -36,6 +51,7 @@ claude-skills/
 |-------|-------------|
 | [prd-builder](./prd-builder/) | AI-native PRD builder — structured discovery interviews, market research, generation, and review. Produces comprehensive Product Requirements Documents for new or existing products. |
 | [notion-ai-orchestrator](./notion-ai-orchestrator/) | Orchestrate Notion AI through the Claude Chrome Extension — create databases, search content, modify pages, and set up automations by delegating to Notion's built-in AI agent. |
+| [spec-driven-dev](./spec-driven-dev/) | Spec-Driven Development — front-loads all thinking into structured specs (SPEC.md, PLAN.md, TASKS.md) before writing code, enabling one-shot implementation of large features and small products. |
 
 ## Usage
 
